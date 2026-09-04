@@ -61,6 +61,7 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:2.5
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
 .hero-phone{transform:none}
 }
+.usecase-hero{min-height:640px}.faq-list{max-width:860px;margin:2.5rem 0}.faq-list details{background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:1.1rem 1.3rem;margin:.8rem 0}.faq-list summary{font-weight:760;cursor:pointer}.faq-list details p{color:var(--muted);margin-bottom:.2rem}
 :root{--ink:#090909;--muted:#525b20;--paper:#f1ffd8;--card:#c4ef36;--accent:#4c3df2;--line:#a9cf2f;--shadow:0 24px 55px rgba(52,66,12,.2)}
 body{background:radial-gradient(circle at 88% 8%,rgba(196,239,54,.7),transparent 25rem),var(--paper)}
 .site-header{margin-top:1rem;background:rgba(241,255,216,.88);border:2px solid var(--ink);border-radius:24px;position:relative;z-index:4}.button{background:var(--accent);border-color:var(--ink);box-shadow:4px 4px 0 var(--ink)}.button.secondary{background:var(--card);color:var(--ink)}.hero h1 span{color:var(--accent)}
