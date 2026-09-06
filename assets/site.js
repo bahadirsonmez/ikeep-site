@@ -41,7 +41,7 @@ document.querySelectorAll('[data-carousel]').forEach((rail) => {
     previousTime = time;
     if (!reduceMotion.matches && !document.hidden && time >= resumeAt && setWidth) {
       rail.classList.remove('is-paused');
-      rail.scrollLeft += direction * elapsed * .04;
+      rail.scrollLeft += direction * elapsed * .052;
       if (rail.scrollLeft >= setWidth * 2) rail.scrollLeft -= setWidth;
       if (rail.scrollLeft <= 0) rail.scrollLeft += setWidth;
     }
