@@ -15,8 +15,7 @@ document.querySelectorAll('[data-carousel]').forEach((rail) => {
   cloneSet();
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  // Keep screenshots ordered 1 → n, then move the viewport back toward 1.
-  const direction = -1;
+  const direction = 1;
   let setWidth = 0;
   let resumeAt = 0;
   let previousTime = 0;
