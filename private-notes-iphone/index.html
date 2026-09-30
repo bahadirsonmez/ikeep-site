@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Private Notes App for iPhone &amp; Apple Watch — iKeep</title>
 <meta name="description" content="Keep private notes and sensitive details organized on iPhone, iPad, and Apple Watch with Apple Keychain, Face ID, and optional iCloud sync.">
-<meta name="theme-color" content="#f1ffd8">
+<meta name="theme-color" content="#4c3df2">
 <link rel="canonical" href="https://ikeep.bahadirsonmez.com/private-notes-iphone/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="iKeep">
@@ -18,8 +18,7 @@
 <meta name="twitter:description" content="Organize sensitive details with Keychain storage, biometric lock, and optional iCloud sync.">
 <meta name="twitter:image" content="https://ikeep.bahadirsonmez.com/assets/images/og-image.png">
 <link rel="icon" href="/assets/images/favicon.png">
-<link rel="stylesheet" href="/assets/site.css">
-<link rel="stylesheet" href="/assets/app-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..800,100,0&family=Inter:wght@400;600;700&display=swap"><link rel="stylesheet" href="/assets/site.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does iKeep protect private notes?","acceptedAnswer":{"@type":"Answer","text":"iKeep can store sensitive values in Apple Keychain and lock access with Face ID or Touch ID."}},{"@type":"Question","name":"Can I use iKeep without iCloud sync?","acceptedAnswer":{"@type":"Answer","text":"Yes. iCloud sync is optional, so you decide whether information should be available across your Apple devices."}},{"@type":"Question","name":"Which Apple devices does iKeep support?","acceptedAnswer":{"@type":"Answer","text":"iKeep supports iPhone and iPad, with access from Apple Watch plus widgets and iMessage features."}}]}</script>
 </head>
 <body>
@@ -29,7 +28,7 @@
 <img src="/assets/images/app-icon.png" alt="" width="40" height="40">
 <span>iKeep</span>
 </a>
-<nav>
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span class="sr-only">Toggle navigation</span><span></span><span></span></button><nav id="site-nav" aria-label="Primary">
 <a href="#privacy">Privacy</a>
 <a href="#faq">FAQ</a>
 <a class="button small" href="https://apps.apple.com/app/id6502346775">Download</a>
@@ -137,6 +136,7 @@
 </nav>
 </div>
 </footer>
+<script src="/assets/site.js" defer></script>
 <!-- Cloudflare Web Analytics -->
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"b08214100473499db5d2655d0c62cd89"}'>
 </script>
